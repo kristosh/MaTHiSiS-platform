@@ -50,5 +50,9 @@ learner has to choose a subject and to start the new session.
 - Teacher interfaces are not presented since this is out of the scope of this study.
 ```
 
-![alt text](https://ibb.co/6bVXFpH "Logo Title Text 1")
+# Login screenshot
+![Capture1](https://user-images.githubusercontent.com/24369160/60984016-43f46980-a33b-11e9-9012-427967451b2c.PNG)
 
+# Question screenshot
+
+![Capture](https://user-images.githubusercontent.com/24369160/60984015-43f46980-a33b-11e9-9771-de1f6b710145.PNG)
