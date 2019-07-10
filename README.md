@@ -49,3 +49,5 @@ during the session.
 learner has to choose a subject and to start the new session.
 - Teacher interfaces are not presented since this is out of the scope of this study.
 ```
+![Alt text](https://ibb.co/6bVXFpH?raw=true "Title")
+![Alt text](https://ibb.co/nRpkcPL?raw=true "Title")
