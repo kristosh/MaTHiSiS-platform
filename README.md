@@ -56,9 +56,8 @@ learner has to choose a subject and to start the new session.
    * Teacher interfaces are not presented since this is out of the scope of this study.
 
 
+
 # Login screenshot
-![Capture1](https://user-images.githubusercontent.com/24369160/60984016-43f46980-a33b-11e9-9012-427967451b2c.PNG)
-
+![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
 # Question screenshot
-
-![Capture](https://user-images.githubusercontent.com/24369160/60984015-43f46980-a33b-11e9-9771-de1f6b710145.PNG)
+![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
