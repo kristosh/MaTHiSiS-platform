@@ -21,6 +21,7 @@ java -jar mathisis.jar
 The testbed platform used in our study is a serious game called Learnin platform developed specifically 
 for the purposes of this research from Maastricht University. 
 The platform consists of two major functionalities: 
+
 * The teacher account functionality, 
 with which tutor has the ability to add new subjects and questions of varying types, 
 levels of difficulty and  also tune maximum available time for the answer to be given by the student, 
@@ -32,7 +33,18 @@ Throughout the learning session, the learner is informed about the current level
 score and the time left for answering the question. A detailed description of the 
 testbed platform interfaces is the following:
 
-### Different environments
+### Teacher interfaces:
+
+* When the user presses the tutor scene button, the learning platform directs to the tutor scene and the Log in/Sign up interface is prompted.
+* Then, tutor logs in or, in the case that an account has not been created, the sign up process must be performed. In the sign up screen, the user adds information in order to create an account and to be able to log in to the system.
+* Consequently, the game directs tutor to the add new material scene. Here, the tutor has two options. To add new subjects or to add new questions.}.
+* If the tutor chooses to add a new subject, then the name of it needs to be added accordingly.
+* In the case that the tutor chooses to add a new question, s/he has to select the type of the question to be included. In the learning platform, three different types of questions are available: choose an answer, true or false and open answer questions (requires from the learner to enter the whole answer). 
+* Finally, the rest of the information related to the question has to be provided. This information includes  the maximum available time for the learner, its level of difficulty and, in the case of ``choose an answer'' question, the possible fake answers which are called distractors.
+* In the case that the tutor chooses to add a new question, s/he has to add the content and the type of the question, the maximum available time for the learner, the level of difficulty and the possible fake answers in case the question belongs to the category ``choose an answer''
+* There are three different types of questions: choose an answer, true or false and open answer questions (requires from the learner to enter the whole answer). 
+
+### Student interfaces:
 
    * An introduction interface, where the two different accounts (teacher and student) are presented 
 in two different buttons.
