@@ -18,15 +18,14 @@ java -jar mathisis.jar
 
 ## About the platform.
 
-The testbed platform used in our study is a serious game called ``Learnin' platform'' developed specifically 
-for the purposes of this research from Maastricht University. The original ``Learnin' platform'' 
-is available on Github\footnote{https://github.com/kristosh/Mathisis-platform}. 
-The platform consists of two major functionalities: 1. The teacher account functionality, 
+The testbed platform used in our study is a serious game called Learnin platform developed specifically 
+for the purposes of this research from Maastricht University. 
+The platform consists of two major functionalities: 
+* The teacher account functionality, 
 with which tutor has the ability to add new subjects and questions of varying types, 
-levels of difficulty and  also tune maximum available time for the answer to be given by the student, 2. 
-The student account functionality which performs the learning sessions of ``Learnin' platform''. 
-The learner entering with student credentials can choose 
-between 4 different default subjects (``Math'', ``Sports'', ``Geography'', ``History''). 
+levels of difficulty and  also tune maximum available time for the answer to be given by the student, 
+* The student account functionality which performs the learning sessions of Learnin platform. 
+The learner entering with student credentials can choose between 4 different default subjects (Math, Sports, Geography, History). 
 For the purpose of data acquisition, every time the learner is playing a specific subject, 
 the level of difficulty is changing randomly. The levels of difficulty are in total 9 (from 1-9). 
 Throughout the learning session, the learner is informed about the current level, the current 
