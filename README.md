@@ -78,7 +78,7 @@ The learners were bachelor and master students (with a mean age of 22.6 years an
 * Participants were told that throughout the experiment they will have to play 16 different learning sessions in total.
 * To enable the students to be clearly seen from the web camera, they were asked to keep a safe distance from the computer screen.
 * Due to time constraints, students were played just 4 sessions per each subject.
-\item[-] The duration for the whole experiment per each participant was 26$\pm$5 minutes.
+* The duration for the whole experiment per each participant was 26$\pm$5 minutes.
 * The system automatically changed the difficulty levels based on the performance of the learners. 
 * The reason behind this, was to record information from as many difficulty levels as possible and analyze afterwards as a function of experienced emotion and user profile.
 * In order to facilitate the experiments' performance and avoid users feeling tired (thus, biasing acquired data), it was decided to establish a restriction per subject so that the learner only performed tests belonging to four out of nine levels. However, to record data belonging to all difficulty levels without exceeding the time constraint (around 30 minutes per each participant to perform the whole experimental phase), the approach implemented was dependent on the score achieved in the previous session. At the beginning, the first level was established randomly between levels one and three (out of nine). Subsequently, the increase of the level was based on the score obtained by the user. In this way, the user was asked to answer questions related to levels four or five, six or seven and eight or nine, depending on whether or not the learner's score would reach a certain threshold. The whole procedure led to sparse matrices of learners and difficulty levels which are suitable for the performed study done and described in the experimental results.
@@ -86,14 +86,13 @@ The learners were bachelor and master students (with a mean age of 22.6 years an
 The 'learning platform' contains two databases. Firstly, a database which contains all of the default provided questions of the platform. This database consists of a unique table which includes the following fields:
 
 * \textbf{questionID}: This field contains the unique identities (id) for every question in order to be easily retrieved from the dataset of the platform.
-* \textbf{subject}: It is the subject of the question.
-* \textbf{type}: This field contains the type of the question (choose an answer, true or false and introduce an answer).
-* \textbf{level}: It is the difficulty level of the question.
-* \textbf{time}: The field speed contains the maximum available time for each question (in seconds).
-* \textbf{question}: This field contains the question content.
-* \textbf{answer}: It is the correct answer of the question.
-* \textbf{fake1, fake2}:  In the case of 'choose an answer' questions, these two extra fields are used to incorporate the distractors for the question, which were introduced from the tutor using the tutor profile. 
-\end{itemize}
+* **subject**: It is the subject of the question.
+* **type**: This field contains the type of the question (choose an answer, true or false and introduce an answer).
+* **level**: It is the difficulty level of the question.
+* **time**: The field speed contains the maximum available time for each question (in seconds).
+* **question**: This field contains the question content.
+* **answer**: It is the correct answer of the question.
+* **fake1, fake2**:  In the case of 'choose an answer' questions, these two extra fields are used to incorporate the distractors for the question, which were introduced from the tutor using the tutor profile. 
 
 Secondly, the platform contains the user database which incorporates all the information about the interactions of the learners with the platform during the learning sessions. This database contains 5 different tables: 
 
@@ -105,37 +104,37 @@ Secondly, the platform contains the user database which incorporates all the inf
 
 StudentsInfo table consists of the demographics of the learner as filled up during the sign-up stage. A detailed description of the fields of this table is as follows: 
 
-* \textbf{userID}: A unique identity which is assigned to every user.
-* \textbf{name, surname}: The name and surname of the user.
-* \textbf{username, password}: The username and the password that the user choose during the sign up process and they are used as crendentials in order to be able to login in the game.
-* \textbf{age, gender}: Those fields contain the basic demographic fields, which were filled in by the user.
-*  \textbf{knowledge, department}: Those fields contain learner's knowledge background (high school, bachelor, master and PhD) and learner's department (engineering, psychology).
-*\textbf{subject annotated level}: This field corresponds to the learner's self-evaluation of their skill level on each of the four presented subjects.
+* **userID**: A unique identity which is assigned to every user.
+* **name, surname**: The name and surname of the user.
+* **username, password**: The username and the password that the user choose during the sign up process and they are used as crendentials in order to be able to login in the game.
+* **age, gender**: Those fields contain the basic demographic fields, which were filled in by the user.
+* **knowledge, department**: Those fields contain learner's knowledge background (high school, bachelor, master and PhD) and learner's department (engineering, psychology).
+* **subject annotated level**: This field corresponds to the learner's self-evaluation of their skill level on each of the four presented subjects.
 \end{itemize}
 
 Table StudentsLevel contains information about the employed difficulty level in all of the available subjects and it is used by the system to conduct the appropriate flow in subsequent learning sessions. Table StudentsScore contains the score obtained for each learner and subject. StudentsQuestions contains information about each learner's answer to the prompted questions for all of the learning sessions performed. In particular, the fields that this table includes are:
 
 
-* \textbf{userID}: The identity of the user that answers a specific question.
-* \textbf{sessionID}: The identity of the specific session in which this question was asked. 
-* \textbf{questionID}: The identity of the corresponding question.
-* \textbf{date}: A timestamp that illustrates the exact time when the question was answered.
-* \textbf{course}: The name of the course of the question.
-* \textbf{level}: The level of difficulty of the question.
-* \textbf{time}: The total amount of time that the user needed for answering the question.
-* \textbf{answer}: This field shows whether or not the user answered the question and if so, whether or not the correct answer was given.
+* **userID**: The identity of the user that answers a specific question.
+* **sessionID**: The identity of the specific session in which this question was asked. 
+* **questionID**: The identity of the corresponding question.
+* **date**: A timestamp that illustrates the exact time when the question was answered.
+* **course**: The name of the course of the question.
+* **level**: The level of difficulty of the question.
+* **time**: The total amount of time that the user needed for answering the question.
+* **answer**: This field shows whether or not the user answered the question and if so, whether or not the correct answer was given.
 
 
 Finally, the StudentsSession table contains all the related information for every learning session. It contains the following fields:
 
-* \textbf{sessionID}: The unique identity of a specific learning session. 
-* \textbf{userID}: The identity of the user when interacted with the specific session.
-* \textbf{date}: A timestamp that illustrates the exact time that the corresponding learning session began.
-* \textbf{course}: The name of the course of the corresponding session.
-* \textbf{level}: The level of difficulty of the corresponding session.
-* \textbf{trial}: An indicator that shows how many times the user has previously interacted with a specific course.
-* \textbf{score}: The field score represents the number of the correct answers of the user during the corresponding session.
-* \textbf{boredom$\_$assessment, engagement$\_$assessment, frustration$\_$assessment}: It is the self-annotation of the users that they provided after the end of each learning session and corresponds to the level of engagement, boredom and frustration that the learner felt during the corresponding session respectively.
+* **sessionID**: The unique identity of a specific learning session. 
+* **userID**: The identity of the user when interacted with the specific session.
+* **date**: A timestamp that illustrates the exact time that the corresponding learning session began.
+* **course**: The name of the course of the corresponding session.
+* **level**: The level of difficulty of the corresponding session.
+* **trial**: An indicator that shows how many times the user has previously interacted with a specific course.
+* **score**: The field score represents the number of the correct answers of the user during the corresponding session.
+* **boredom-assessment, engagement-assessment, frustration-assessment**: It is the self-annotation of the users that they provided after the end of each learning session and corresponds to the level of engagement, boredom and frustration that the learner felt during the corresponding session respectively.
 
 # Login screenshot
 ![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
