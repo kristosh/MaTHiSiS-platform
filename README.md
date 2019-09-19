@@ -142,6 +142,8 @@ Finally, the StudentsSession table contains all the related information for ever
 ![capture6](https://user-images.githubusercontent.com/24369160/65252215-dada6080-daf8-11e9-8ecf-f974fc8c8efe.png)
 ## Question panel
 ![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
+## Questionnaires
+![Capture8](https://user-images.githubusercontent.com/24369160/65259362-d2882280-db04-11e9-9455-3b45192a3ab0.JPG)
 ## Results panel
 ![Capture6](https://user-images.githubusercontent.com/24369160/65251343-7539a480-daf7-11e9-806e-876ae585fe2f.JPG)
 
