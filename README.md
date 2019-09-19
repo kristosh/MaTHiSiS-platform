@@ -135,7 +135,13 @@ Finally, the StudentsSession table contains all the related information for ever
 * **score**: The field score represents the number of the correct answers of the user during the corresponding session.
 * **boredom-assessment, engagement-assessment, frustration-assessment**: It is the self-annotation of the users that they provided after the end of each learning session and corresponds to the level of engagement, boredom and frustration that the learner felt during the corresponding session respectively.
 
-# Login screenshot
+# The flow of the learning platform 
+## Login panel
 ![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
-# Question screenshot
+## Choose a course panel
+![capture7](https://user-images.githubusercontent.com/24369160/65250754-5dadec00-daf6-11e9-9cf8-39ce3369cb20.png)
+## Question panel
 ![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
+## Results panel
+![Capture6](https://user-images.githubusercontent.com/24369160/65250082-43274300-daf5-11e9-840c-0ec16d701637.JPG)
+
