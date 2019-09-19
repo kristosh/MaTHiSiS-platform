@@ -137,11 +137,11 @@ Finally, the StudentsSession table contains all the related information for ever
 
 # The flow of the learning platform 
 ## Login panel
-![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
+![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
 ## Choose a course panel
 ![capture6](https://user-images.githubusercontent.com/24369160/65252215-dada6080-daf8-11e9-8ecf-f974fc8c8efe.png)
 ## Question panel
-![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
+![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
 ## Results panel
 ![Capture6](https://user-images.githubusercontent.com/24369160/65251343-7539a480-daf7-11e9-806e-876ae585fe2f.JPG)
 
