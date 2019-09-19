@@ -139,9 +139,9 @@ Finally, the StudentsSession table contains all the related information for ever
 ## Login panel
 ![Capture](https://user-images.githubusercontent.com/24369160/61784305-c552fe00-ae09-11e9-9870-6ee133a35814.PNG)
 ## Choose a course panel
-![capture7](https://user-images.githubusercontent.com/24369160/65250754-5dadec00-daf6-11e9-9cf8-39ce3369cb20.png)
+![capture7](https://user-images.githubusercontent.com/24369160/65251344-7539a480-daf7-11e9-9226-3be8ab203c54.png)
 ## Question panel
 ![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
 ## Results panel
-![Capture6](https://user-images.githubusercontent.com/24369160/65250082-43274300-daf5-11e9-840c-0ec16d701637.JPG)
+![Capture6](https://user-images.githubusercontent.com/24369160/65251343-7539a480-daf7-11e9-806e-876ae585fe2f.JPG)
 
