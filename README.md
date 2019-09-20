@@ -156,5 +156,8 @@ Finally, the StudentsSession table contains all the related information for ever
 ![teacher_sign_up](https://user-images.githubusercontent.com/24369160/65315607-afa74e00-db98-11e9-84eb-804ae429c17f.JPG)
 ## Tutor panel
 ![teacher_panel](https://user-images.githubusercontent.com/24369160/65315618-b5049880-db98-11e9-8172-9a1217199529.JPG)
-
+## Add new course panel
+![new_addd](https://user-images.githubusercontent.com/24369160/65315966-512e9f80-db99-11e9-8714-3ad60b0bd27e.JPG)
+## Add new question panel
+![add_questions](https://user-images.githubusercontent.com/24369160/65315965-512e9f80-db99-11e9-906f-678db91ecb18.JPG)
 
