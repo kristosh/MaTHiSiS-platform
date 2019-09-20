@@ -135,7 +135,11 @@ Finally, the StudentsSession table contains all the related information for ever
 * **score**: The field score represents the number of the correct answers of the user during the corresponding session.
 * **boredom-assessment, engagement-assessment, frustration-assessment**: It is the self-annotation of the users that they provided after the end of each learning session and corresponds to the level of engagement, boredom and frustration that the learner felt during the corresponding session respectively.
 
-# The flow of the learning platform 
+# The flow of the learning platform for the learner
+## Choose a role panel
+![choose_a_role](https://user-images.githubusercontent.com/24369160/65315465-7373ed80-db98-11e9-896a-8832cb8f8f5a.JPG)
+## Sign up panel
+![sign_up_learner](https://user-images.githubusercontent.com/24369160/65315535-90102580-db98-11e9-8be6-cb88c75e9121.JPG)
 ## Login panel
 ![Capture1](https://user-images.githubusercontent.com/24369160/61784307-c5eb9480-ae09-11e9-8ef7-d44b17324eeb.PNG)
 ## Choose a course panel
@@ -146,4 +150,11 @@ Finally, the StudentsSession table contains all the related information for ever
 ![Capture8](https://user-images.githubusercontent.com/24369160/65259362-d2882280-db04-11e9-9455-3b45192a3ab0.JPG)
 ## Results panel
 ![Capture6](https://user-images.githubusercontent.com/24369160/65251343-7539a480-daf7-11e9-806e-876ae585fe2f.JPG)
+
+# The flow of the learning platform for the tutor
+## Sign up panel
+![teacher_sign_up](https://user-images.githubusercontent.com/24369160/65315607-afa74e00-db98-11e9-84eb-804ae429c17f.JPG)
+## Tutor panel
+![teacher_panel](https://user-images.githubusercontent.com/24369160/65315618-b5049880-db98-11e9-8172-9a1217199529.JPG)
+
 
