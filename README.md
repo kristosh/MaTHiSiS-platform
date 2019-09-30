@@ -67,6 +67,10 @@ during the session.
 learner has to choose a subject and to start the new session.
    * Teacher interfaces are not presented since this is out of the scope of this study.
 
+## Adaptation mechanism:
+
+In order to facilitate the experiments' performance and avoid users feeling tired (thus, biasing acquired data), it was decided to establish a restriction per subject so that the learner only performed tests belonging to four out of nine levels. However, to record data belonging to all difficulty levels without exceeding the time constraint (around 30 minutes per each participant to perform the whole experimental phase), the approach implemented that is representing the adaptation mechanism of the platform was dependent on the score achieved in the previous session. At the beginning, the first level was established randomly between levels one and three (out of nine). Subsequently, the increase of the level was based on the score obtained by the user. In this way, the user was asked to answer questions related to levels four or five, six or seven and eight or nine, depending on whether or not the learner's score would reach a certain threshold. The whole procedure led to sparse matrices of learners and difficulty levels which are suitable for the performed study done and described in the experimental results.
+
 ### Dataset
 
 This platform mainly was developed in an effort to created a leanring dataset. That dataset consists of students from Maastricht University, the Netherlands, voluntarily playing the 'learning platform'. The dataset is available for download after communication with the authors, through the dedicated form found in the following link:v https://project.dke.maastrichtuniversity.nl/kristosh/index.php.
