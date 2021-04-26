@@ -73,7 +73,7 @@ In order to facilitate the experiments' performance and avoid users feeling tire
 
 ### Dataset
 
-This platform mainly was developed in an effort to created a leanring dataset. That dataset consists of students from Maastricht University, the Netherlands, voluntarily playing the 'learning platform'. The dataset is available for download after communication with the authors, through the dedicated form found in the following link:v https://project.dke.maastrichtuniversity.nl/kristosh/index.php.
+This platform mainly was developed in an effort to create a leanring dataset. That dataset consists of students from Maastricht University, the Netherlands, voluntarily playing the 'learning platform'. The dataset is available for download after in the following link: https://project.dke.maastrichtuniversity.nl/kristosh/dataset.rar.
 
 The learners were bachelor and master students (with a mean age of 22.6 years and standard deviation of 3.1), from two different knowledge profiles, namely software engineering and psychology. Each student performed four learning sessions in each of the four available subjects. After every learning session, the users were asked to assess, on a Likert scale (from zero to five), the degree of engagement, frustration and boredom variables that they experienced. The analysis presented in this paper was based on 33 players (16 males and 17 females). The lighting conditions during the capturing procedure were typical for an office environment and a web camera was used for capturing facial and upper torso expressivity. The detailed description for the data acquisition protocol is the following:
 
