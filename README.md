@@ -108,7 +108,6 @@ Secondly, the platform contains the user database which incorporates all the inf
 StudentsInfo table consists of the demographics of the learner as filled up during the sign-up stage. A detailed description of the fields of this table is as follows: 
 
 * **userID**: A unique identity which is assigned to every user.
-* **username, password**: The username and the password that the user choose during the sign up process and they are used as crendentials in order to be able to login in the game.
 * **age, gender**: Those fields contain the basic demographic fields, which were filled in by the user.
 * **knowledge, department**: Those fields contain learner's knowledge background (high school, bachelor, master and PhD) and learner's department (engineering, psychology).
 * **subject annotated level**: This field corresponds to the learner's self-evaluation of their skill level on each of the four presented subjects.
